@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">game list dicoding</string>
+    <string name="content_description_email_icon">email_icon\n</string>
+    <string name="egdrga">\@egdrga</string>
+    <string name="about">About</string>
+    <string name="about_this_application">About This Application</string>
+    <string name="description_about">Hi Perkenal kan namaku ega, Aplikasi ini di buat untuk Submission Akhir di kelas Aplikasi Android Sederhana di dicoding.com yang dimana menampilkan 10 daftar game dan jika di klik memiliki detail dari game tersebut.</string>
+    <string name="slang">Dev in the Know, Cool by Nature</string>
+    <string name="pp_description">content_description_profile_photo</string>
+    <string name="emailgwehj">egadirgaa174@gmail.com</string>
+    <string name="spesialisasi_android_dev_kotlin">Spesialisasi: Android Dev (Kotlin)</string>
+    <string name="content_description_coding_icon">content_description_coding_icon</string>
+</resources>
