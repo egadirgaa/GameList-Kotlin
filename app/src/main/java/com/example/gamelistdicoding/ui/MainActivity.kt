@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.PopupMenu
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -20,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var gameAdapter: GameAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        ThemeUtils.applySavedTheme(this)
+        // Hapus ThemeUtils jika Anda tidak ingin mengelola tema sama sekali
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -46,13 +45,13 @@ class MainActivity : AppCompatActivity() {
         menuButton.setOnClickListener { view ->
             val popup = PopupMenu(this, view)
             popup.menuInflater.inflate(R.menu.menu_main, popup.menu)
+
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q) {
+                popup.setForceShowIcon(true)
+            }
+
             popup.setOnMenuItemClickListener { item: MenuItem ->
                 when (item.itemId) {
-                    R.id.menu_dark_mode -> {
-                        ThemeUtils.toggleTheme(this)
-                        recreate()
-                        true
-                    }
                     R.id.menu_about -> {
                         val intent = Intent(this, AboutActivity::class.java)
                         startActivity(intent)

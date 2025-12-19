@@ -7,7 +7,10 @@
     <string name="description_about">Hi Perkenal kan namaku ega, Aplikasi ini di buat untuk Submission Akhir di kelas Aplikasi Android Sederhana di dicoding.com yang dimana menampilkan 10 daftar game dan jika di klik memiliki detail dari game tersebut.</string>
     <string name="slang">Dev in the Know, Cool by Nature</string>
     <string name="pp_description">content_description_profile_photo</string>
-    <string name="emailgwehj">egadirgaa174@gmail.com</string>
+    <string name="emailgwehj">nesza.anes89@gmail.com</string>
     <string name="spesialisasi_android_dev_kotlin">Spesialisasi: Android Dev (Kotlin)</string>
     <string name="content_description_coding_icon">content_description_coding_icon</string>
+    <string name="daftar_game">Daftar Game</string>
+    <string name="menu">Menu</string>
+    <string name="tech_logo">Tech Logo</string>
 </resources>

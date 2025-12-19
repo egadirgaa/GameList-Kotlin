@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/menu_dark_mode"
-        android:title="Mode Gelap/Terang"
-        android:icon="@drawable/ic_dark_mode" />
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="schemas.android.com">
     <item
         android:id="@+id/menu_about"
         android:title="Tentang Aplikasi"
-        android:icon="@drawable/ic_info" />
+        android:icon="@drawable/ic_info"
+        app:showAsAction="withText|always" />
 </menu>
